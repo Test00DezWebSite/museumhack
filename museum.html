@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="yavro">
+  <meta name="theme-color" content="#ffffff">
+
+    <title>my museum of interest</title>
+
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- CSS  -->
+  <link href="assets/css/min/plugin-min.css" type="text/css" rel="stylesheet">
+  <link href="assets/css/min/custom-min.css" type="text/css" rel="stylesheet">
+
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script>
+    (function(document,navigator,standalone) {
+        // prevents links from apps from oppening in mobile safari
+        // this javascript must be the first script in your <head>
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location=document.location, stop=/^(a|html)$/i;
+            document.addEventListener('click', function(e) {
+                curnode=e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode=curnode.parentNode;
+                }
+                // Conditions to do this only on links to your own app
+                // if you want all links, use if('href' in curnode) instead.
+                if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            },false);
+        }
+    })(document,window.navigator,'standalone');
+	</script>
+
+</head>
+<body>
+
+<div class="container">
+
+  <!--Card -->
+<div class="card text-center">
+
+  <div class="view overlay hm-white-slight">
+
+    <!--Card image-->
+        <img src="assets/img/GAM/INFINITO_-_KABAKOV_I_sleep_in_the_orchard_20130403045921.jpg" class="img-fluid" alt="">
+        <a>
+            <div class="mask waves-effect waves-light"></div>
+        </a>
+    </div>
+    <!--/.Card image-->
+    <!--Card content-->
+    <div class="card-block">
+        <!--move down button-->
+        <a class="btn-floating btn-action"><i class="fa fa-chevron-left" aria-hidden="true" style="position: absolute; right: 0;"></i></a>
+        <a href="museums.html" class="btn-floating btn-action" style="color:#e5e5e5"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+        <!--Title-->
+        <h4 class="card-title"></h4>
+        <hr>
+        <!--Text-->
+        <p class="card-text">Let's visit the museum of our dreams.</p>
+    </div>
+    <!--/.Card content-->
+
+
+</div>
+<!--/.Card Dark-->
+
+</div>
+
+    <!-- -->
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--<script src="assets/js/bootstrap-2.3.1.min.js"></script>-->
+	  <script src="assets/js/addtohomescreen.js"></script>
+
+    </body>
+</html>

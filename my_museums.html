@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="yavro">
+  <meta name="theme-color" content="#ffffff">
+
+    <title>my museums of interest</title>
+
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- CSS  -->
+  <link href="assets/css/min/plugin-min.css" type="text/css" rel="stylesheet">
+  <link href="assets/css/min/custom-min.css" type="text/css" rel="stylesheet">
+  <link href="assets/css/cards.css" type="text/css" rel="stylesheet">
+
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script>
+    (function(document,navigator,standalone) {
+        // prevents links from apps from oppening in mobile safari
+        // this javascript must be the first script in your <head>
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location=document.location, stop=/^(a|html)$/i;
+            document.addEventListener('click', function(e) {
+                curnode=e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode=curnode.parentNode;
+                }
+                // Conditions to do this only on links to your own app
+                // if you want all links, use if('href' in curnode) instead.
+                if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            },false);
+        }
+    })(document,window.navigator,'standalone');
+	</script>
+
+
+</head>
+<body>
+
+<div class="container">
+
+  <!--Card group-->
+
+  <div class="support-grid"></div>
+
+<div class="band" style="position: center;">
+  <div class="item-1">
+        <a href="http://www.fondazionetorinomusei.it/sites/default/files/page/gallery/Palazzo%20Madama%20Torino_Camera%20di%20Madama%20Reale.jpg" class="card">
+          <div class="thumb" style="background-image: url(http://www.fondazionetorinomusei.it/sites/default/files/page/gallery/Palazzo%20Madama%20Torino_Camera%20di%20Madama%20Reale.jpg);"></div>
+          <article>
+            <h1>Camera di Madama Reale</h1>
+            <span>Palazzo Madama</span>
+          </article>
+        </a>
+  </div>
+    <div class="item-2">
+          <a href="http://www.gamtorino.it/it/le-collezioni/catalogo-delle-opere-online-gam/superficie-bianca" class="card">
+            <div class="thumb" style="background-image: url(assets/img/GAM/CASTELLANI_MS_30.jpg);"></div>
+            <article>
+              <h1>Superficie bianca</h1>
+              <span>GAM TORINO</span>
+            </article>
+          </a>
+    </div>
+    <div class="item-3">
+          <a href="http://www.gamtorino.it/it/le-collezioni/catalogo-delle-opere-online-gam/superficie-102" class="card">
+            <div class="thumb" style="background-image: url(assets/img/GAM/CAPOGROSSI_SUPERFICIE_102.jpg);"></div>
+            <article>
+              <h1>SUPERFICIE 102</h1>
+              <span>GAM TORINO</span>
+            </article>
+          </a>
+    </div>
+    <div class="item-4">
+          <a href="http://www.gamtorino.it/sites/default/files/opere/ACCARDI_ARCIERE_SU_BIANCO_CRT.jpg" class="card">
+            <div class="thumb" style="background-image: url(assets/img/GAM/ACCARDI_ARCIERE_SU_BIANCO_CRT.jpg);"></div>
+            <article>
+              <h1>ACCARDI ARCIERE SU BIANCO CRT</h1>
+              <span>GAM TORINO</span>
+            </article>
+          </a>
+    </div>
+    <div class="item-5">
+          <a href="http://www.fondazionetorinomusei.it/sites/default/files/page/gallery/Antonello%20da%20Messina.jpg" class="card">
+            <div class="thumb" style="background-image: url(assets/img/madama/M0003140.jpg);"></div>
+            <article>
+              <h1>Antonello da Messina, Ritratto d'uomo</h1>
+              <span>Palazzo Madama</span>
+            </article>
+          </a>
+    </div>
+      <div class="item-6">
+            <a href="http://www.gamtorino.it/it/le-collezioni/catalogo-delle-opere-online-gam/i-sleep-orchard" class="card">
+              <div class="thumb" style="background-image: url(assets/img/GAM/INFINITO_-_KABAKOV_I_sleep_in_the_orchard_20130403045921.jpg);"></div>
+              <article>
+                <h1>I sleep in the orchard</h1>
+                <span>GAM TORINO</span>
+              </article>
+            </a>
+      </div>
+    <div class="item-7">
+          <a href="http://www.maotorino.it/it/le-collezioni/catalogo-delle-opere-online-mao" class="card">
+            <div class="thumb" style="background-image: url(assets/img/MAO/Sl03.jpg);"></div>
+            <article>
+              <h1>Giardino secco</h1>
+              <span> MAO Torino</span>
+            </article>
+          </a>
+    </div>
+    <!--<div class="item-7">
+          <a href="http://www.maotorino.it/en/node/35991" class="card">
+            <div class="thumb" style="background-image: url(assets/img/MAO/IAs24.jpg);"></div>
+            <article>
+              <h1>TESTA DI UOMO BARBATO</h1>
+              <span> MAO Torino</span>
+            </article>
+          </a>
+    </div>-->
+
+    <!--Card content-->
+    <div class="card-block">
+        <!--move down button-->
+        <a href="museum.html" class="btn-floating btn-action"><i class="fa fa-chevron-left" aria-hidden="true" style="position: center;"></i></a>
+    </div>
+    <!--/.Card content-->
+
+  </div>
+    <!--/.Card group content-->
+
+  </div>
+
+</div>
+
+    <!-- -->
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--<script src="assets/js/bootstrap-2.3.1.min.js"></script>-->
+	  <script src="assets/js/addtohomescreen.js"></script>
+
+    </body>
+</html>
